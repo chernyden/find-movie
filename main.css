@@ -1,0 +1,218 @@
+@media screen {
+    
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+h1,
+html,
+body,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+html,
+body {
+    /* IE 10-11 didn't like using min-height */
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.main {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.header {
+    padding: 0 100px;
+    background-image: url(https://blog.mediamarkt.be/wp-content/uploads/2020/06/Mediazine-series-streaming-2.jpg);
+    background-color: #414040;
+    background-blend-mode: multiply;
+}
+.header__blocktop {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__red {
+    color: red;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.header__search-input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.header__movie {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header__searchby {
+    color: white;
+    margin-right: 15px;
+}
+
+.header__search-by {
+    display: flex;
+    align-items: center;
+}
+
+.header__title {
+    width: 80px;
+    height: 31px;
+    background-color: rgb(216, 71, 71);
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+    margin-right: 15px;
+}
+
+.header__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header__searching {
+    width: 290px;
+    height: 55px;
+    background-color: rgb(216, 71, 71);
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+}
+
+.header__director {
+    width: 108px;
+    height: 31px;
+    background-color: rgb(95, 92, 92);
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+}
+
+.header__finded {
+    width: 200px;
+    color: rgb(65, 62, 62);
+}
+
+.header__blockbot {
+    background-color: rgb(230, 222, 222);
+    width: 100%;
+    padding: 0 100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header__grey {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.header__sort {
+    color: rgb(65, 62, 62);
+    margin-right: 20px;
+}
+
+.header__release {
+    color: rgb(65, 62, 62);
+    margin-right: 20px;
+}
+
+.header__rating {
+    color: rgb(216, 71, 71);
+}
+
+.main__movie-card {
+    position: relative;
+    display: inline-block;
+    width: 370px;
+    margin: 10px;
+    height: 600px;
+}
+.main__pic {
+    height: 500px;
+    width: 320px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.main__name {
+    text-align: left;
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+}
+
+.main__year {
+    text-align: right;
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+    border: 1px solid rgb(201, 192, 192);
+    padding: 2px 5px 2px 5px;
+}
+
+.main__genre {
+    text-align: left;
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    font-size: 15px;
+    color: rgb(156, 154, 154);
+}
+
+.footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+    height: 70px;
+    background-color: #333232;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__botred {
+    position: absolute;
+    left: 30px;
+    color: tomato;
+}
