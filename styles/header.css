@@ -1,0 +1,78 @@
+.header {
+    padding: 0 100px;
+    background-image: url(https://blog.mediamarkt.be/wp-content/uploads/2020/06/Mediazine-series-streaming-2.jpg);
+    background-color: #414040;
+    background-blend-mode: multiply;
+}
+
+.header__wrapper {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__red {
+    color: red;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.header__search-input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: grey;
+}
+
+.header__movie {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header__searchby {
+    color: white;
+    margin-right: 15px;
+}
+
+.header__search-by {
+    display: flex;
+    align-items: center;
+}
+
+.header__title {
+    width: 80px;
+    height: 31px;
+    background-color: rgb(216, 71, 71);
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+    margin-right: 15px;
+}
+
+.header__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header__searching {
+    width: 290px;
+    height: 55px;
+    background-color: rgb(216, 71, 71);
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+}
+
+.header__director {
+    width: 108px;
+    height: 31px;
+    background-color: rgb(95, 92, 92);
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+}

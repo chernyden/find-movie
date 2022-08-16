@@ -1,0 +1,39 @@
+.movie-card {
+    position: relative;
+    display: inline-block;
+    width: 370px;
+    height: 600px;
+}
+.movie-card__picture {
+    height: 500px;
+    width: 320px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.movie-card__name {
+    text-align: left;
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+}
+
+.movie-card__year {
+    text-align: right;
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+    border: 1px solid rgb(201, 192, 192);
+    padding: 2px 5px 2px 5px;
+}
+
+.movie-card__genre {
+    text-align: left;
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    font-size: 15px;
+    color: rgb(156, 154, 154);
+}

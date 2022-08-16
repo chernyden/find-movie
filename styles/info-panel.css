@@ -1,0 +1,34 @@
+.info-panel__finded {
+    width: 200px;
+    color: rgb(65, 62, 62);
+}
+
+.info-panel {
+    background-color: rgb(230, 222, 222);
+    width: 100%;
+    padding: 0 100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.info-panel__grey {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.info-panel__sort {
+    color: rgb(65, 62, 62);
+    margin-right: 20px;
+}
+
+.info-panel__release {
+    color: rgb(65, 62, 62);
+    margin-right: 20px;
+}
+
+.info-panel__rating {
+    color: rgb(216, 71, 71);
+}

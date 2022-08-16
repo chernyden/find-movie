@@ -1,0 +1,42 @@
+@media screen {
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+h1,
+html,
+body,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+html,
+body {
+    /* IE 10-11 didn't like using min-height */
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
